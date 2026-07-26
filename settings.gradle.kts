@@ -24,3 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Kotlin_Logger"
 include(":app")
+include(":klog-core")
+include(":klog-ui-compose")

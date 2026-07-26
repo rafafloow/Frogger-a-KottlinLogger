@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.rafaflow.klog.core" >
+
+    <uses-sdk android:minSdkVersion="21" />
+
+    <application>
+        <provider
+            android:name="dev.rafaflow.klog.core.KLogInitializer"
+            android:authorities="${applicationId}.klog-initializer"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="100" />
+    </application>
+
+</manifest>

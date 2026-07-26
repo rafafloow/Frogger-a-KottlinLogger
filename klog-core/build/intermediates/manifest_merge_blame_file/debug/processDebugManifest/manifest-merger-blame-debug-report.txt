@@ -1,0 +1,25 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.rafaflow.klog.core" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->INJECTED
+5-->INJECTED
+6
+7    <application>
+7-->/home/rafaflow/AndroidStudioProjects/Kotlin_Logger/klog-core/src/main/AndroidManifest.xml:3:5-10:19
+8        <provider
+8-->/home/rafaflow/AndroidStudioProjects/Kotlin_Logger/klog-core/src/main/AndroidManifest.xml:4:9-9:39
+9            android:name="dev.rafaflow.klog.core.KLogInitializer"
+9-->/home/rafaflow/AndroidStudioProjects/Kotlin_Logger/klog-core/src/main/AndroidManifest.xml:5:13-66
+10            android:authorities="${applicationId}.klog-initializer"
+10-->/home/rafaflow/AndroidStudioProjects/Kotlin_Logger/klog-core/src/main/AndroidManifest.xml:6:13-68
+11            android:enabled="true"
+11-->/home/rafaflow/AndroidStudioProjects/Kotlin_Logger/klog-core/src/main/AndroidManifest.xml:7:13-35
+12            android:exported="false"
+12-->/home/rafaflow/AndroidStudioProjects/Kotlin_Logger/klog-core/src/main/AndroidManifest.xml:8:13-37
+13            android:initOrder="100" />
+13-->/home/rafaflow/AndroidStudioProjects/Kotlin_Logger/klog-core/src/main/AndroidManifest.xml:9:13-36
+14    </application>
+15
+16</manifest>
