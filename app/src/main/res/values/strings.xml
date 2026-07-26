@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Kotlin_Logger</string>
+    <string name="app_name">KLog Demo</string>
+    <string name="demo_title">Laboratorio KLog</string>
+    <string name="demo_description">Genera reportes desde esta botonera. KLog se inicializó automáticamente mediante su ContentProvider.</string>
+    <string name="log_info">Registrar INFO</string>
+    <string name="log_warning">Registrar WARNING</string>
+    <string name="log_error">Registrar ERROR + excepción</string>
+    <string name="toggle_format">Cambiar formato</string>
+    <string name="active_format">Formato activo: %1$s</string>
+    <string name="concurrent_logs">Generar logs concurrentes</string>
+    <plurals name="generating_concurrent_logs">
+        <item quantity="one">Generando %1$d entrada desde varios threads…</item>
+        <item quantity="other">Generando %1$d entradas desde varios threads…</item>
+    </plurals>
+    <string name="refresh_files">Actualizar archivos</string>
+    <string name="clear_logs">Limpiar reportes</string>
+    <string name="simulate_crash">Simular crash fatal</string>
+    <string name="crash_dialog_title">¿Cerrar la app intencionalmente?</string>
+    <string name="crash_dialog_message">Se lanzará una excepción no controlada. Abre de nuevo la app para comprobar el reporte CRASH.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="crash_now">Generar crash</string>
+    <string name="status_initial">Consultando reportes…</string>
 </resources>
